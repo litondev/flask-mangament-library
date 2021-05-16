@@ -21,7 +21,7 @@ class Auth:
 			return redirect("/")
 
 		session["user"] = user.id
-		return redirect("/signup")
+		return redirect("/user")
 
 	@app.route("/signup",methods=["POST"])
 	def user_auth_signup_actions():
