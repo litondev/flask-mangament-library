@@ -1,0 +1,11 @@
+# serve
+python -m flask run
+python -m flask run --host=0.0.0.0
+
+# migrate :
+$ python -m app.py flask db init
+$ db migrate (migrate dulu)
+$ db upgrade (lalu upgrade kalau ngak di upgrade maka di database juga ngak akan berubah)
+db downgrade
+delete versions file and then migrate again
+$ db --help
