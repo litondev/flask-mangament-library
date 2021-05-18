@@ -1,6 +1,6 @@
-from controllers.user.web.auth import Auth as UserWebAuth
-from controllers.user.actions.auth import Auth as UserActionsAuth
-from controllers.user.web.user import User as UserWeb
+from .user.web.auth import Auth as UserWebAuth
+from .user.actions.auth import Auth as UserActionsAuth
+from .user.web.user import User as UserWeb
 
 user_web_auth = UserWebAuth()
 """
